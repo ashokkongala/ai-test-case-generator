@@ -1,4 +1,4 @@
-openai
-python-dotenv
-pydantic
-pytest
+openai==3.45.0
+python-dotenv==1.2.4
+pydantic==2.14.2
+pytest==9.2.0

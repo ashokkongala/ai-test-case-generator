@@ -3,6 +3,7 @@ from typing import Literal
 
 
 class TestCase(BaseModel):
+    __test__ = False
     id: str
     title: str
     priority: Literal["P0", "P1", "P2", "P3"]
